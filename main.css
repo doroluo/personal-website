@@ -3,6 +3,50 @@ body {
     font-family: "Cormorant Garamond";
 }
 
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button {
+    background-color: #f4e1e3;
+    border: 2px solid #9b7960;
+    outline: 2px solid #9b7960;
+    outline-offset: -2px;
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 20px;
+    font-weight: 800;
+    color: #513721;
+    /* padding: 20px 80px; */
+    width: 250px;
+    height: 70px;
+    border-radius: 30px;
+    margin: 5px;
+    transition: outline-offset 50ms ease;
+}
+
+button:hover {
+    outline-offset: 3px;
+}
+
+.aboutme_content {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    background-color:#f8d9df;
+    padding: 25px;
+}
+
+.bear_button {
+    padding: 0%;
+    margin-left: 10px;
+    border: 0px;
+    outline: 0px;
+    outline-offset: 0px;
+    text-align: center;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -15,6 +59,11 @@ body {
     font-size: 25px;
     margin: 8px;
     text-align: center;
+}
+
+.link_buttons {
+    text-align: center;
+    margin-top: 40px;
 }
 
 /* font css */
