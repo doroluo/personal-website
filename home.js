@@ -2,7 +2,10 @@ function load_aboutme(){
     document.getElementById("main_page").innerHTML = `
         <div id="nav_bar" class="nav_bar" style="text-align: center;">
             <button class="bear_button" onClick="load_home()"><img id="bear" src="images/bear_pfp.gif" class="center" style="height: 100px; width:auto;"></button>
+            <br>
+            <a class="nav_button" onClick="load_home()"> Home </a>
         </div>
+        <br> 
 
         <div class="aboutme_content">
             <h1 style="text-align: center; margin-top: 0px">
@@ -125,7 +128,10 @@ function load_projects() {
     document.getElementById("main_page").innerHTML = `
         <div id="nav_bar" class="nav_bar" style="text-align: center;">
             <button class="bear_button" onClick="load_home()"><img id="bear" src="images/bear_pfp.gif" class="center" style="height: 100px; width:auto;"></button>
+            <br>
+            <a class="nav_button" onClick="load_home()"> Home </a>
         </div>
+        <br>
 
         <div class="project_content">
             <p style="text-align: center;">

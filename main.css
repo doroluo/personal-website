@@ -1,6 +1,6 @@
 body {
     background-color:#f4e1e3;
-    font-family: "Cormorant Garamond";
+    font-family: "Nunito";
 }
 
 p {
@@ -14,7 +14,7 @@ button {
     outline: 2px solid #9b7960;
     outline-offset: -2px;
     text-align: center;
-    font-family: "Cormorant Garamond";
+    font-family: "Nunito";
     font-size: 20px;
     font-weight: 800;
     color: #513721;
@@ -47,6 +47,12 @@ button:hover {
     text-align: center;
 }
 
+.nav_button {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -67,6 +73,33 @@ button:hover {
 }
 
 /* font css */
+.nunito-light {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.nunito-regular {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.nunito-bold {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nunito-medium {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 .cormorant-garamond-light {
     font-family: "Cormorant Garamond", serif;
     font-weight: 300;
