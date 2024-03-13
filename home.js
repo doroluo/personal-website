@@ -134,8 +134,14 @@ function load_projects() {
         <br>
 
         <div class="project_content">
-            <p style="text-align: center;">
-            Hi! There isn't much going on in here right now, but I'm hoping there will be soon!
+            <h2 style="margin-bottom: 0px">
+            Pomodoro Timer
+            </h2>
+            <i style="margin-top: 0px">
+            Status: in progress
+            </i>
+            <p style="font-size: 16px">
+            Not your usual pomodoro timer. This pomodoro timer will ping you incessently with a loud noise until you turn it off.
             </p>
         </div>
     `;
