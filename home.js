@@ -139,7 +139,8 @@ function load_projects() {
             </h2>
             <i style="margin-top: 0px">
             Status: in progress
-            </i>
+            </i> <br>
+            <a href="https://doroluo.github.io/annoying-pomodoro/">GitHub link</a>
             <p style="font-size: 16px">
             Not your usual pomodoro timer. This pomodoro timer will ping you incessently with a loud noise until you turn it off.
             </p>
